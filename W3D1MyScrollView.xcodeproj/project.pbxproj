@@ -13,6 +13,7 @@
 		A7D472A21CA0550400F15F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D472A01CA0550400F15F1F /* Main.storyboard */; };
 		A7D472A41CA0550400F15F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D472A31CA0550400F15F1F /* Assets.xcassets */; };
 		A7D472A71CA0550400F15F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D472A51CA0550400F15F1F /* LaunchScreen.storyboard */; };
+		A7D472B01CA058E600F15F1F /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D472AF1CA058E600F15F1F /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A7D472A31CA0550400F15F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D472A61CA0550400F15F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D472A81CA0550400F15F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D472AE1CA058E600F15F1F /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		A7D472AF1CA058E600F15F1F /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A7D472A51CA0550400F15F1F /* LaunchScreen.storyboard */,
 				A7D472A81CA0550400F15F1F /* Info.plist */,
 				A7D472971CA0550400F15F1F /* Supporting Files */,
+				A7D472AE1CA058E600F15F1F /* MyScrollView.h */,
+				A7D472AF1CA058E600F15F1F /* MyScrollView.m */,
 			);
 			path = W3D1MyScrollView;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D4729F1CA0550400F15F1F /* ViewController.m in Sources */,
+				A7D472B01CA058E600F15F1F /* MyScrollView.m in Sources */,
 				A7D4729C1CA0550400F15F1F /* AppDelegate.m in Sources */,
 				A7D472991CA0550400F15F1F /* main.m in Sources */,
 			);
